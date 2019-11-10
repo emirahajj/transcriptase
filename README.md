@@ -26,3 +26,7 @@ insertion or deletion can have on a DNA sequence.
 It reads in from the file "frameshift_mutations.txt" where each even line contains a DNA sequence and each odd 
 line contains the same DNA sequence with either a deletion or insertion of one base, anywhere in the sequence.
 
+Amino acid sequences are created by reading 3 bases of an mRNA sequence at a time (called codons), so a dictionary file named "codons.tsv" is included to allow for the translation of mRNA to an amino acid sequence. 
+
+Amino acid sequences have dedicated "start" and "stop" codons to flag the start and end of an amino acid chain.
+The start codon is "AUG" and there are 3 stop codons: "UAA," "UGA," and "UAG."

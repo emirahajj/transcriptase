@@ -10,7 +10,10 @@ similar to the way in which letters of the alphabet appear in a certain order to
 
 Since DNA is just the "blueprint," there are other processes that need to occur at the microscopic level to convert
 the raw data encoded in DNA, into larger protein structures that serve various functions on the cellular level.
-
+```
+A DNA strand                   : TTCGCTGGAGCCGGGCGTTACCTAAACGTTATTTCACGGAAGCTT
+It's complementary mRNA strand : AAGCGACCUCGGCCCGCAAUGGAUUUGCAAUAAAGUGCCUUCGAA
+```
 Transcription is the process of creating an mRNA sequence (precursor to amino acid sequence) from a DNA sequence and 
 translation is the process of creating an amino acid sequence (precursor to larger proteins) from an mRNA sequence.
 

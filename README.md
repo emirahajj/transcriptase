@@ -17,8 +17,18 @@ It's complementary mRNA strand : AAGCGACCUCGGCCCGCAAUGGAUUUGCAAUAAAGUGCCUUCGAA
 Transcription is the process of creating an mRNA sequence (precursor to amino acid sequence) from a DNA sequence and 
 translation is the process of creating an amino acid sequence (precursor to larger proteins) from an mRNA sequence.
 
-When DNA is replicated, minor mutations can happen over long periods of time. Two such types of mutations are deletion and
-insertion. Deletion occurs when one or some bases are deleted from the sequence and the insertion occurs when one or more
+As we can see above, when we transcribe from DNA to mRNA:
+
+```
+T -> A
+A -> U
+C -> G
+G -> C
+```
+
+
+When DNA is replicated, minor mutations can happen over long periods of time. Two such types of mutations are **deletion** and
+**insertion**. Deletion occurs when one or some bases are deleted from the sequence and the insertion occurs when one or more
 bases are added to the sequence. 
 
 -------------------

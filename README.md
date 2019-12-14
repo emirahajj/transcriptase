@@ -1,7 +1,7 @@
 # transcriptase
-<p class="aligncenter">
-    <img src="/dna.jpg" />
-</p>
+<p align="center">
+   <img src="dna.jpg">
+ </p>
 
 
 DNA, or deoxyribonucleic acid, is the hereditary material in humans and almost all other organisms. It serves as a 

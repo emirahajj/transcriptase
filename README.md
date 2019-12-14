@@ -13,7 +13,7 @@ the raw data encoded in DNA, into larger protein structures that serve various f
 
 Two main processes occur to turn DNA code into proteins: **transcription** and **translation.**
 
-##Transcription
+## Transcription
 
 Transcription is the process of creating an mRNA sequence (precursor to amino acid sequence) from a DNA sequence.
 
@@ -29,7 +29,7 @@ A's are "mapped" to U's
 C's are "mapped" to G's
 G's are "mapped" to C's
 ```
-##Translation
+## Translation
 
 Translation is the process of creating an amino acid sequence (precursor to larger proteins) from an mRNA sequence.
 

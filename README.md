@@ -37,10 +37,10 @@ In this step, amino acid chains are created by reading mRNA strands three bases 
 
 ```
 A DNA strand                   : TTCGCTGGAGCCGGGCGTTACCTAAACGTTATTTCACGGAAGCTT
-It's complementary mRNA strand : AAGCGACCUCGGCCCGCA**AUGGAUUUGCAAUAA**AGUGCCUUCGAA                                          
+It's complementary mRNA strand : AAGCGACCUCGGCCCGCAAUGGAUUUGCAAUAAAGUGCCUUCGAA                                          
 Amino acid sequence            : Met-Asp-Leu-Gln
 ```
-
+Note, the AUG start codon doesn't appear till halfway through the mRNA strand, so translation doens't occur until then.
 When DNA is replicated, minor mutations can happen over long periods of time. Two such types of mutations are **deletion** and
 **insertion**. 
 

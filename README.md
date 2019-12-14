@@ -1,5 +1,6 @@
 # transcriptase
-![Image of DNA](https://emirahajj.github.com/transcriptase/dna.jpg)
+![Image of DNA]
+(http://emirahajj.github.com/transcriptase/dna.jpg)
 
 DNA, or deoxyribonucleic acid, is the hereditary material in humans and almost all other organisms. It serves as a 
 biological blueprint which is unique to every organism. The information in DNA is stored as a "code" made up of 

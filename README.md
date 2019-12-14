@@ -1,6 +1,6 @@
 # transcriptase
 <p class="aligncenter">
-    <img src="/dna.jpg" alt="centered image" />
+    <img src="/dna.jpg" />
 </p>
 
 

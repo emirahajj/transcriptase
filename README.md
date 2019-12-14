@@ -37,7 +37,7 @@ In this step, amino acid chains are created by reading mRNA strands three bases 
 
 ```
 A DNA strand                   : TTCGCTGGAGCCGGGCGTTACCTAAACGTTATTTCACGGAAGCTT
-It's complementary mRNA strand : AAGCGACCUCGGCCCGCAAUGGAUUUGCAAUAAAGUGCCUUCGAA
+It's complementary mRNA strand : AAGCGACCUCGGCCCGCA**AUGGAUUUGCAAUAA**AGUGCCUUCGAA                                          
 Amino acid sequence            : Met-Asp-Leu-Gln
 ```
 

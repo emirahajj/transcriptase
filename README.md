@@ -10,36 +10,60 @@ similar to the way in which letters of the alphabet appear in a certain order to
 
 Since DNA is just the "blueprint," there are other processes that need to occur at the microscopic level to convert
 the raw data encoded in DNA, into larger protein structures that serve various functions on the cellular level.
+
+Two main processes occur to turn DNA code into proteins: **transcription** and **translation.**
+
+##Transcription
+
+Transcription is the process of creating an mRNA sequence (precursor to amino acid sequence) from a DNA sequence.
+
 ```
 A DNA strand                   : TTCGCTGGAGCCGGGCGTTACCTAAACGTTATTTCACGGAAGCTT
 It's complementary mRNA strand : AAGCGACCUCGGCCCGCAAUGGAUUUGCAAUAAAGUGCCUUCGAA
 ```
-Transcription is the process of creating an mRNA sequence (precursor to amino acid sequence) from a DNA sequence and 
-translation is the process of creating an amino acid sequence (precursor to larger proteins) from an mRNA sequence.
-
 As we can see above, when we transcribe from DNA to mRNA:
 
 ```
-T -> A
-A -> U
-C -> G
-G -> C
+T's are "mapped" to A's
+A's are "mapped" to U's
+C's are "mapped" to G's
+G's are "mapped" to C's
+```
+##Translation
+
+Translation is the process of creating an amino acid sequence (precursor to larger proteins) from an mRNA sequence.
+
+In this step, amino acid chains are created by reading mRNA strands three bases at a time (also called codons). Another cellular component called a ribosome, scans the mRNA strand to look for the signal to start amino acid formation. This start signal is always the codon AUG. Once to start codon is found, the amino acid chain formation begins and grows until the stop codons are found. There are 3 stop codons: UAA, UGA, and UAG.
+
+```
+A DNA strand                   : TTCGCTGGAGCCGGGCGTTACCTAAACGTTATTTCACGGAAGCTT
+It's complementary mRNA strand : AAGCGACCUCGGCCCGCAAUGGAUUUGCAAUAAAGUGCCUUCGAA
+Amino acid sequence            : Met-Asp-Leu-Gln
 ```
 
-
 When DNA is replicated, minor mutations can happen over long periods of time. Two such types of mutations are **deletion** and
-**insertion**. Deletion occurs when one or some bases are deleted from the sequence and the insertion occurs when one or more
-bases are added to the sequence. 
+**insertion**. 
 
+Deletion occurs when one or more bases are deleted from a sequence:
+
+```
+Strand 1              :TTCGCTGGAGCCGGGCGTTACCTAAACGTTATTT
+Deletion on strand 1  :TTCGCTGGAGCGGGCGTTACCTAAACGTTATTT
+```
+
+Insertion occurs when one or more bases are added to a sequence:
+
+```
+Strand 1              :TTCGCTGGAGCCGGGCGTTACCTAAACGTTATTT
+Insertion on strand 1 :TTCGCTGGAGCCGGGCGTTACACTAAACGTTATTT
+```
 -------------------
 
-This C++ program performs transcription and translation on DNA sequences and highlights the effect that even just one
-insertion or deletion can have on a DNA sequence.
+This C++ program performs transcription and translation on DNA sequences.
 
 It reads in from the file "frameshift_mutations.txt" where each even line contains a DNA sequence and each odd 
 line contains the same DNA sequence with either a deletion or insertion of one base, anywhere in the sequence.
 
-Amino acid sequences are created by reading 3 bases of an mRNA sequence at a time (called codons), so a dictionary file named "codons.tsv" is included to allow for the translation of mRNA to an amino acid sequence. 
+A dictionary file named "codons.tsv" is included to allow for the translation of mRNA to an amino acid sequence. 
 
-Amino acid sequences have dedicated "start" and "stop" codons to flag the start and end of an amino acid chain.
-The start codon is "AUG" and there are 3 stop codons: "UAA," "UGA," and "UAG."
+The ouput of the program displays the amino-acid sequences for each DNA strand on each line and highlights the effect that even just one insertion or deletion can have on a DNA sequence. Some sequences shorten, some become longer, and others fail to get created altogether.  

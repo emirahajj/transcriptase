@@ -1,5 +1,8 @@
 # transcriptase
-<img src="/dna.jpg" class="center">
+<p class="aligncenter">
+    <img src="/dna.jpg" alt="centered image" />
+</p>
+
 
 DNA, or deoxyribonucleic acid, is the hereditary material in humans and almost all other organisms. It serves as a 
 biological blueprint which is unique to every organism. The information in DNA is stored as a "code" made up of 
